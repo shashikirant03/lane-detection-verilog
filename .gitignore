@@ -1,0 +1,27 @@
+# Quartus build output (created when you compile)
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+*.qws
+*.sof
+*.pof
+*.bak
+
+# with_camera: the project files are created by lane_detection.tcl
+with_camera/*.qpf
+with_camera/*.qsf
+with_camera/*.sdc
+
+# without_camera: files written by the Python tools
+without_camera/sim/
+without_camera/work/
+without_camera/fpga_out/
+__pycache__/

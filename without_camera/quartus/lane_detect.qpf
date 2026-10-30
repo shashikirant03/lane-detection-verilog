@@ -1,0 +1,3 @@
+QUARTUS_VERSION = "18.1"
+DATE = "2026"
+PROJECT_REVISION = "lane_detect"
